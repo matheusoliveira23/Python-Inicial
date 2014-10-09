@@ -1,5 +1,5 @@
 #Criando Hellow word no python 09-10-2014
-print ('Hellow Word')
+print ('Hellow Word\n')
 
 #      :::INFO::
 

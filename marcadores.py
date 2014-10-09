@@ -3,7 +3,7 @@
 #Variaveis
 a = 10
 texto = 'Frutas'
-pi = 3.1415
+pi = 3.1415  #não existe um objeto nativo do pi que possa ser "invocado" automaticamente?
 
 #prints
 print('O numero é',a)

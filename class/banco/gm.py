@@ -10,10 +10,6 @@ class Conta:
         self.numero = numero
         self.operacoes = []
         self.deposito(saldo)
-class ContaEspecial(Conta):
-    def __init__(self,clientes,numero,saldo = 0,limite = 0):
-        Conta.__init__(self,clientes,numero,saldo)
-        self.limite = limite
     def resumo(self):
         print('CC numero: %s Saldo: %10.2f' %(self.numero,self.saldo))      
     def saque(self,valor):
